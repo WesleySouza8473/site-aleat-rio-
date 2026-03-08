@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>SITE RANDOM</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        
+        body {
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+        .container {
+            background-color: rgba(35, 35, 35, 0.6);
+            padding: 14px;
+            border-radius: 70px;  
+        }
+        input {
+            margin: 5px 0;
+            padding: 8px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+        <ul>
+            <a style="color: white; font-size: 22px;" href="https://www.google.com/search?gs_ssp=eJzj4tTP1TcwMU02T1JgNGB0YPBiS8_PT89JBQBASQXT&q=google&rlz=1C1VDKB_enBR1153BR1153&oq=go&gs_lcrp=EgZjaHJvbWUqEggBEC4YQxjHARjRAxiABBiKBTIGCAAQRRg5MhIIARAuGEMYxwEY0QMYgAQYigUyDAgCECMYJxiABBiKBTIMCAMQIxgnGIAEGIoFMgYIBBBFGDwyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQgxNDIyajBqOagCALACAA&sourceid=chrome&ie=UTF-8">Home</a> <a style="color: white; font-size: 22px;" href="https://www.youtube.com/">Sobre</a><br>
+        </ul>
+    </nav>
+</header>
+        <h1>Site random</h1>
+        <p>This is a random website created for demonstration purposes.</p>
+        <p>It doesn't have a specific purpose, but serves to show how to create a simple web page.</p>
+        <p>You can add mor  e content, such as images, links, and other elements to make the site more interesting.</p>
+        <p>Have fun exploring and customizing this random website!</p>
+
+        <h2>Login</h2>
+        <form action="#" method="post">
+            <input type="text" name="username" placeholder="Enter your username" required>
+            <br>
+            <input type="password" name="password" id="password" placeholder="Enter your password" required>
+            <br>
+            <button type="submit">login</button>   
+            <button type="button">Forgot your password?</button>
+        </form>
+        <h5></h5>
+<footer>
+            <p>&copy; 2026 Site Random. All rights reserved by Wesley Souza.</p>
+        </footer>
+
+</body>
+</html>
